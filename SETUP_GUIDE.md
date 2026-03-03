@@ -303,31 +303,31 @@ nano .env
 **Required production values:**
 ```env
 NODE_ENV=production
-CLIENT_URL=https://dentalsaas.com
+CLIENT_URL=http://18.136.197.42
 
 MONGO_ROOT_USER=admin
-MONGO_ROOT_PASSWORD=VeryStrongPassword123!  # Change this!
+MONGO_ROOT_PASSWORD=DentalSAAS  # Change this!
 
 # Generate: openssl rand -hex 64
-JWT_SECRET=your_64_byte_hex_string_here
+JWT_SECRET=41d0e847ef74d8c18257d7ff12ce2f1a62f8c921194a1a603e99760b46162f009b9c0936353cb0b98b3b8b9b5c0c23fbe508d2e87d264c88722584304560e593
 
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_EMAIL=your@gmail.com
-SMTP_PASSWORD=your_gmail_app_password  # Google App Password
+SMTP_EMAIL=dfdsf
+SMTP_PASSWORD=dfdsf  # Google App Password
 
-OPENAI_API_KEY=sk-your_real_openai_key
+OPENAI_API_KEY=fdsf
 
 # Cloudinary (for X-ray/file uploads)
-CLOUDINARY_CLOUD_NAME=your_cloud
-CLOUDINARY_API_KEY=your_key
-CLOUDINARY_API_SECRET=your_secret
+CLOUDINARY_CLOUD_NAME=sdfsd
+CLOUDINARY_API_KEY=sdfsd
+CLOUDINARY_API_SECRET=sdfsdf
 
 # Stripe (for subscription payments)
-STRIPE_SECRET_KEY=sk_live_your_key
-STRIPE_WEBHOOK_SECRET=whsec_your_secret
+STRIPE_SECRET_KEY=fsdf
+STRIPE_WEBHOOK_SECRET=sdfsdf
 
-REACT_APP_API_URL=https://dentalsaas.com/api/v1
+REACT_APP_API_URL=http://56504045r455/api/v1
 ```
 
 ---
