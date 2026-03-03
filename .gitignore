@@ -1,0 +1,31 @@
+# Environment
+.env
+*.env.local
+.env.production
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build
+build/
+dist/
+
+# Uploads
+backend/uploads/
+
+# Docker volumes (local)
+mongo_data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
